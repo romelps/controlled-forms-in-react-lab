@@ -61,7 +61,7 @@ const Bookshelf = () => {
                 <ul>
                 {books.map((book) => (
                     <li class="bookCard" id={book._id}>
-                        {book.title} by {book.author}
+                        <h4>{book.title}</h4> by {book.author}
                     </li>
                 ))}
                 </ul>
